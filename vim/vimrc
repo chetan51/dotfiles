@@ -161,118 +161,11 @@ nnoremap <leader>t2e :setl ts=2<Enter>:setl sw=2<Enter>:setl expandtab<Enter>
 nnoremap <leader>t4e :setl ts=4<Enter>:setl sw=4<Enter>:setl expandtab<Enter>
 nnoremap <leader>t4d :setl ts=4<Enter>:setl sw=4<Enter>:setl noexpandtab<Enter>
 
-" Shortcuts for LaTeX
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-"  <Leader>lie inserts a LaTeX environment or package by simulating <F5>
-map <Leader>lie <F5>
-"  <Leader>lic inserts a LaTeX command by simulating <F7>
-map <Leader>lic <F7>
-" <Leader>lj jumps to next placeholder by simulating <C-j>
-map <Leader>lj <C-j>
-
-
-
-" LaTeX
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
-filetype plugin on
-
-" IMPORTANT: win32 users will need to have 'shellslash' set so that latex
-" can be called correctly.
-set shellslash
-
-" IMPORTANT: grep will sometimes skip displaying the file name if you
-" search in a singe file. This will confuse Latex-Suite. Set your grep
-" program to always generate a file-name.
-set grepprg=grep\ -nH\ $*
-
-" OPTIONAL: This enables automatic indentation as you type.
-filetype indent on
-
-" OPTIONAL: Starting with Vim 7, the filetype of empty .tex files defaults to
-" 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
-" The following changes the default filetype back to 'tex':
-let g:tex_flavor='latex'
-
-" Turn on forward search with Skim
-let g:Tex_DefaultTargetFormat = 'pdf'
- 
-let g:Tex_CompileRule_dvi = 'latex --interaction=nonstopmode $*'
-let g:Tex_CompileRule_ps = 'dvips -Pwww -o $*.ps $*.dvi'
-let g:Tex_CompileRule_pspdf = 'ps2pdf $*.ps'
-let g:Tex_CompileRule_dvipdf = 'dvipdfm $*.dvi'
-let g:Tex_CompileRule_pdf = 'pdflatex -synctex=1 --interaction=nonstopmode $*'
- 
-let g:Tex_ViewRule_dvi = 'texniscope'
-let g:Tex_ViewRule_ps = 'Preview'
-let g:Tex_ViewRule_pdf = 'Skim'
- 
-let g:Tex_FormatDependency_ps  = 'dvi,ps'
-let g:Tex_FormatDependency_pspdf = 'dvi,ps,pspdf'
-let g:Tex_FormatDependency_dvipdf = 'dvi,dvipdf'
- 
-" let g:Tex_IgnoredWarnings ='
-"       \"Underfull\n".
-"       \"Overfull\n".
-"       \"specifier changed to\n".
-"       \"You have requested\n".
-"       \"Missing number, treated as zero.\n".
-"       \"There were undefined references\n".
-"       \"Citation %.%# undefined\n".
-"       \"\oval, \circle, or \line size unavailable\n"' 
-
-
-" NERDTree Shortcuts
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" Shortcut mapping
-map <leader>nt :NERDTreeToggle<CR>
-
 
 " Pathogen
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+execute pathogen#infect()
 
-filetype off
-call pathogen#runtime_append_all_bundles()
-filetype plugin indent on
-
-
-" Rainbow Parentheses
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" Shortcut mapping
-nmap <leader>rp :RainbowParenthesesToggle<CR>
-
-
-" FuzzyFileFinder_Textmate
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" Shortcut mapping
-"map <leader>nf :FuzzyFinderTextMate<CR>
-
-" Cocoa
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let objc_man_key = '_'
-
-" Clojure / ClojureScript
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-autocmd BufRead,BufNewFile *.cljs setlocal filetype=clojure
-
-" Taglist
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
-map <leader>tl :TlistToggle<CR>
-
-" Ctrl-P
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:ctrlp_working_path_mode = 0
-set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/tmp/*
-let g:ctrlp_mru_files = 1
-
-" Shortcut mapping
-map <leader>nf :CtrlP<CR>
 
 " Stuff that has to be last
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -280,4 +173,4 @@ map <leader>nf :CtrlP<CR>
 " Set color scheme
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme material-theme

@@ -4,3 +4,6 @@
 [submodule "antigen"]
 	path = antigen
 	url = https://github.com/zsh-users/antigen.git
+[submodule "vim/bundle/vim-material-theme"]
+	path = vim/bundle/vim-material-theme
+	url = https://github.com/jdkanani/vim-material-theme
