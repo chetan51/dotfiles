@@ -8,6 +8,7 @@ antigen bundle zsh-autosuggestions
 antigen bundle autoenv
 antigen bundle vi-mode
 antigen bundle fasd
+antigen bundle gitfast
 
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
