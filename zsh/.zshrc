@@ -11,6 +11,8 @@ antigen bundle common-aliases
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-autosuggestions
 
+# Load autocompletion plugins.
+antigen bundle gibo-completion
 # Load the theme.
 antigen theme bhilburn/powerlevel9k powerlevel9k
 

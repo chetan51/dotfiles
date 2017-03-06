@@ -6,6 +6,7 @@
     - [npm uninstall hyper-material-theme, "Installing Material theme for Hyper terminal"]
     - [brew install autoenv, "Installing autoenv"]
     - [brew install fasd, "Installing fasd"]
+    - [brew install gibo, "Installing gibo (gitignore tool)"]
 
 - link:
     ~/.dotfiles: ""
