@@ -12,4 +12,5 @@
     ~/.zshrc: zsh/.zshrc
     ~/.hyper.js: hyper/hyper.js
     ~/dev: ~/Dropbox/Development
+    ~/.vim: vim
     ~/.vimrc: vim/vimrc

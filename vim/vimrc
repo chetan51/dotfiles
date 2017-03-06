@@ -56,10 +56,10 @@ set undolevels=1000      " use many muchos levels of undo
 set wildignore=*.swp,*.bak,*.pyc,*.class
 
 " File editing and backups
-set backupdir=~/.vim/tmp/backup// " backups
-set directory=~/.vim/tmp/swap//   " swap files
-set backup                        " enable backups
-set noswapfile                    " disable swap files
+"set backupdir=~/.vim/tmp/backup// " backups
+"set directory=~/.vim/tmp/swap//   " swap files
+"set backup                        " enable backups
+"set noswapfile                    " disable swap files
 
 " File loading and saving
 set ar                            " auto-reload changed files
