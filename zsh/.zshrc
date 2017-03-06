@@ -4,7 +4,6 @@ source ~/.dotfiles/antigen/antigen.zsh
 antigen use oh-my-zsh
 
 # Load bundles.
-antigen bundle autoenv
 antigen bundle fasd
 antigen bundle gitfast
 antigen bundle common-aliases
