@@ -93,7 +93,7 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [
     'hyper-material-theme',
-    'hyper-statusline',
+    'hyperline',
     'hyperterm-tabs',
     'hyperterm-alternatescroll',
     'hypercwd'
