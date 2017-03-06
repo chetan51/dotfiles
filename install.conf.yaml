@@ -1,5 +1,13 @@
 - clean: ['~']
 
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
+    - ["brew tap caskroom/fonts && brew cask install font-source-code-pro-for-powerline", "Installing font: Source Code Pro"]
+    - [npm uninstall hyper-material-theme, "Installing Material theme for Hyper terminal"]
+    - [brew install autoenv, "Installing autoenv"]
+
 - link:
     ~/.dotfiles: ""
     ~/.gitconfig: gitconfig
+    ~/.zshrc: zsh/.zshrc
+    ~/dev: ~/Dropbox/Development
