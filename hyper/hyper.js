@@ -93,7 +93,10 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [
     'hyper-material-theme',
-    'hyperline'
+    'hyperline',
+    'hyperterm-tabs',
+    'hyperterm-alternatescroll',
+    'hypercwd'
   ],
 
   // in development, you can create a directory under
