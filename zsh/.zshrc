@@ -25,8 +25,8 @@ export EDITOR=code
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir rbenv vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status history time vi_mode)
 
-# Import aliases.
-source ~/.dotfiles/zsh/aliases
-
 # Load scm_breeze.
 [ -s "$HOME/.dotfiles/scm_breeze/scm_breeze.sh" ] && source "$HOME/.dotfiles/scm_breeze/scm_breeze.sh"
+
+# Import aliases.
+source ~/.dotfiles/zsh/aliases
