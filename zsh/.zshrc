@@ -25,3 +25,6 @@ export EDITOR=code
 # Customize prompt.
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir rbenv vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status history time vi_mode)
+
+# Import aliases
+source ~/.dotfiles/zsh/aliases
