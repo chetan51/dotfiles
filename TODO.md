@@ -2,5 +2,3 @@
 - Speed up startup time using antigen-hs
 - Fix autosuggestion
 - Fix autocomplete of `cd ../[TAB]` when in `Dropbox (Personal)/Development`
-- Remove scm_breeze because it is slow, replace with tig
-    - Make scm_breeze installation idempotent

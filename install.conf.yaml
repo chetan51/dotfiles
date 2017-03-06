@@ -6,7 +6,6 @@
     - [npm uninstall hyper-material-theme, "Installing Material theme for Hyper terminal"]
     - [brew install autoenv, "Installing autoenv"]
     - [brew install fasd, "Installing fasd"]
-    - [./scm_breeze/install.sh, "Installing scm_breeze"]
 
 - link:
     ~/.dotfiles: ""
