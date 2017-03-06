@@ -13,3 +13,6 @@
 [submodule "vim/bundle/vim-airline"]
 	path = vim/bundle/vim-airline
 	url = https://github.com/vim-airline/vim-airline
+[submodule "scm_breeze"]
+	path = scm_breeze
+	url = git://github.com/scmbreeze/scm_breeze.git
