@@ -7,7 +7,7 @@ antigen use oh-my-zsh
 antigen bundle zsh-autosuggestions
 antigen bundle autoenv
 antigen bundle vi-mode
-antigen bundle autojump
+antigen bundle fasd
 
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -26,7 +26,7 @@ POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir rbenv vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status history time vi_mode)
 
 # Load scm_breeze.
-[ -s "$HOME/.dotfiles/scm_breeze/scm_breeze.sh" ] && source "$HOME/.dotfiles/scm_breeze/scm_breeze.sh"
+[ -s "$HOME/.scm_breeze/scm_breeze.sh" ] && source "$HOME/.scm_breeze/scm_breeze.sh"
 
 # Import aliases.
 source ~/.dotfiles/zsh/aliases
