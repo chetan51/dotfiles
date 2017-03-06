@@ -16,3 +16,4 @@
     ~/dev: ~/Dropbox/Development
     ~/.vim: vim
     ~/.vimrc: vim/vimrc
+    ~/.tigrc: tig/tigrc
