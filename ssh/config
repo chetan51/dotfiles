@@ -1,2 +1,0 @@
-Host *.terminal.com
-  ProxyCommand ssh -p 2200 chetan51@sshterminal.com setup_terminal_proxy %h %p

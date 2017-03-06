@@ -1,9 +1,5 @@
 - clean: ['~']
 
 - link:
+    ~/.dotfiles: ""
     ~/.gitconfig: gitconfig
-    ~/.ssh/config:
-        path: ssh/config
-        create: true
-
-
