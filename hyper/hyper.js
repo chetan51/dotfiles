@@ -77,12 +77,15 @@ module.exports = {
     bell: 'SOUND',
 
     // if true, selected text will automatically be copied to the clipboard
-    copyOnSelect: false
+    copyOnSelect: false,
 
     // URL to custom bell
     // bellSoundURL: 'http://example.com/bell.mp3',
 
     // for advanced config flags please refer to https://hyper.is/#cfg
+
+    // hyperterm summon
+    summonShortcut: 'CommandOrControl+Shift+Space'
   },
 
   // a list of plugins to fetch and install from npm
@@ -96,7 +99,8 @@ module.exports = {
     'hyperline',
     'hyperterm-tabs',
     'hyperterm-alternatescroll',
-    'hypercwd'
+    'hypercwd',
+    'hyperterm-summon'
   ],
 
   // in development, you can create a directory under
