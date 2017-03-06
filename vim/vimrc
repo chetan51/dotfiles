@@ -77,10 +77,9 @@ set relativenumber				" turn on relative line numbers
 set ruler						" turn on ruler
 set wrap						" turn on soft wrap and word wrap
 set linebreak
-set guifont=Menlo\ Regular:h14	" set default font
+set guifont=Source\ Code\ Pro:h16	" set default font
 
 " Display settings in insert mode
-set cursorline
 syntax on           " syntax highlighting
 set showmatch       " automatically show matching brackets
 
@@ -173,4 +172,4 @@ execute pathogen#infect()
 " Set color scheme
 syntax enable
 set background=dark
-colorscheme material-theme
+colorscheme hybrid_material
