@@ -29,5 +29,8 @@ POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
 # Import bindings.
 source ~/.dotfiles/zsh/bindings
 
+# Import functions.
+source ~/.dotfiles/zsh/functions
+
 # Import aliases.
 source ~/.dotfiles/zsh/aliases
