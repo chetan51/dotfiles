@@ -5,6 +5,7 @@
     - ["brew tap caskroom/fonts && brew cask install font-source-code-pro-for-powerline", "Installing font: Source Code Pro"]
     - [npm uninstall hyper-material-theme, "Installing Material theme for Hyper terminal"]
     - [brew install autoenv, "Installing autoenv"]
+    - [brew install autojump, "Installing autojump"]
 
 - link:
     ~/.dotfiles: ""
