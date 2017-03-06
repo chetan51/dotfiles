@@ -3,15 +3,13 @@ source ~/.dotfiles/antigen/antigen.zsh
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
 
-# Bundles from the default repo (robbyrussell's oh-my-zsh).
-antigen bundle zsh-autosuggestions
+# Load bundles.
 antigen bundle autoenv
-antigen bundle vi-mode
 antigen bundle fasd
 antigen bundle gitfast
-
-# Syntax highlighting bundle.
+antigen bundle common-aliases
 antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-autosuggestions
 
 # Load the theme.
 antigen theme bhilburn/powerlevel9k powerlevel9k
