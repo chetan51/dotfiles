@@ -9,7 +9,7 @@ antigen bundle fasd
 antigen bundle gitfast
 antigen bundle common-aliases
 antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle zsh-autosuggestions
+# antigen bundle zsh-autosuggestions
 
 # Load the theme.
 antigen theme bhilburn/powerlevel9k powerlevel9k
@@ -28,6 +28,9 @@ POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
 
 # Load scm_breeze.
 [ -s "$HOME/.scm_breeze/scm_breeze.sh" ] && source "$HOME/.scm_breeze/scm_breeze.sh"
+
+# Import bindings.
+source ~/.dotfiles/zsh/bindings
 
 # Import aliases.
 source ~/.dotfiles/zsh/aliases
