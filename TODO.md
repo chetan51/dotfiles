@@ -2,3 +2,4 @@
 - Speed up startup time using antigen-hs
 - Fix autosuggestion
 - Fix autocomplete of `cd ../[TAB]` when in `Dropbox (Personal)/Development`
+- Make scm_breeze installation idempotent
