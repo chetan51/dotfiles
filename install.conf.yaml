@@ -10,4 +10,5 @@
     ~/.dotfiles: ""
     ~/.gitconfig: gitconfig
     ~/.zshrc: zsh/.zshrc
+    ~/.hyper.js: hyper/hyper.js
     ~/dev: ~/Dropbox/Development
