@@ -5,6 +5,7 @@
 	default = simple
 [core]
 	excludesfile = /Users/Chetan/.gitignore_global
+	editor = vim
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
