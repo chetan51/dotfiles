@@ -10,6 +10,7 @@ antigen bundle common-aliases
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-autosuggestions
 antigen bundle molovo/tipz
+antigen bundle bgnotify
 
 # Load autocompletion plugins.
 antigen bundle gibo-completion
