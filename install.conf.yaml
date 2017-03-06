@@ -8,6 +8,7 @@
     - [brew install fasd, "Installing fasd"]
     - [brew install gibo, "Installing gibo (gitignore tool)"]
     - [brew install terminal-notifier, "Installing terminal notifier"]
+    - [brew install lastpass-cli --with-pinentry, "Installing LastPass CLI"]
 
 - link:
     ~/.dotfiles: ""

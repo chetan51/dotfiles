@@ -38,6 +38,9 @@ source ~/.dotfiles/zsh/functions
 # Import aliases.
 source ~/.dotfiles/zsh/aliases
 
+# Import environment variables.
+source ~/.dotfiles/zsh/env-vars
+
 # Load autosuggestions.
 source ~/.dotfiles/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 

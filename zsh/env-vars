@@ -1,0 +1,2 @@
+export AWS_ACCESS_KEY_ID=`lpass show "AWS API Access key ID" --password`
+export AWS_SECRET_ACCESS_KEY=`lpass show "AWS API Secret access key" --password`
