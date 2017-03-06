@@ -166,6 +166,14 @@ nnoremap <leader>t4d :setl ts=4<Enter>:setl sw=4<Enter>:setl noexpandtab<Enter>
 execute pathogen#infect()
 
 
+" Vim airline
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+" Fix a weird bug with the first line being broken (https://github.com/zeit/hyper/issues/1037#issuecomment-269848444)
+set t_RV=
+
+
 " Stuff that has to be last
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
