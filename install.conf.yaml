@@ -12,7 +12,7 @@
 - link:
     ~/.dotfiles: ""
     ~/.gitconfig: gitconfig
-    ~/.zshrc: zsh/.zshrc
+    ~/.zshrc: zsh/zshrc
     ~/.hyper.js: hyper/hyper.js
     ~/dev: ~/Dropbox/Development
     ~/.vim: vim
