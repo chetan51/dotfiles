@@ -34,3 +34,6 @@ source ~/.dotfiles/zsh/functions
 
 # Import aliases.
 source ~/.dotfiles/zsh/aliases
+
+# Allow autocompleting to special directories (like ../)
+zstyle ':completion:*' special-dirs true
