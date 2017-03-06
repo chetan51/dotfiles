@@ -9,7 +9,7 @@ antigen bundle fasd
 antigen bundle gitfast
 antigen bundle common-aliases
 antigen bundle zsh-users/zsh-syntax-highlighting
-# antigen bundle zsh-autosuggestions
+antigen bundle zsh-autosuggestions
 
 # Load the theme.
 antigen theme bhilburn/powerlevel9k powerlevel9k
@@ -34,6 +34,9 @@ source ~/.dotfiles/zsh/functions
 
 # Import aliases.
 source ~/.dotfiles/zsh/aliases
+
+# Load autosuggestions.
+source ~/.dotfiles/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Allow autocompleting to special directories (like ../)
 zstyle ':completion:*' special-dirs true
