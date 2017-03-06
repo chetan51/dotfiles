@@ -1,3 +1,2 @@
 - Speed up powerlevel9k's vcs segment in large git repos
 - Speed up startup time using antigen-hs
-- Fix autocomplete of `cd ../[TAB]` when in `Dropbox (Personal)/Development`
