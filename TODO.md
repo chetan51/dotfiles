@@ -1,4 +1,3 @@
-- Speed up powerlevel9k's vcs segment in large git repos
 - Speed up startup time using antigen-hs
 - Improve cat:
 
