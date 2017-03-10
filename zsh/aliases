@@ -1,2 +1,4 @@
 alias gc="git commit -v"
 alias gcA="git add -A && git commit -v"
+alias gs="git status"
+alias gA="git add -A"
