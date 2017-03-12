@@ -41,6 +41,9 @@ source ~/.dotfiles/zsh/aliases
 # Import environment variables.
 source ~/.dotfiles/zsh/env-vars
 
+# Import changes to PATH.
+source ~/.dotfiles/zsh/path
+
 # Load autosuggestions.
 source ~/.dotfiles/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
