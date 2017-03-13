@@ -23,7 +23,7 @@ antigen theme frmendes/geometry
 antigen apply
 
 # Set editor to VS Code.
-export EDITOR=code
+export EDITOR=vim
 
 # Customize prompt.
 GEOMETRY_COLOR_DIR="magenta"
