@@ -56,4 +56,4 @@ zstyle ':completion:*' special-dirs true
 # POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir rbenv vcs)
 # POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status history time vi_mode)
 # POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
-# 1OWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
+# POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
