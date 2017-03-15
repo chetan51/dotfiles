@@ -100,7 +100,8 @@ module.exports = {
     'hyperterm-tabs',
     'hyperterm-alternatescroll',
     'hypercwd',
-    'hyperterm-summon'
+    'hyperterm-summon',
+    'hyperlinks'
   ],
 
   // in development, you can create a directory under
