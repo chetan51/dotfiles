@@ -1,0 +1,22 @@
+{
+	"auto_upgrade_last_run": null,
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"MarkdownEditing",
+		"OmniSharp",
+		"Package Control",
+		"Pretty JSON",
+		"ShaderLanguages",
+		"SublimeGit",
+		"SublimeLinter",
+		"SublimeLinter-contrib-clang",
+		"SublimeLinter-jshint",
+		"Theme - Soda",
+		"Theme - Spacegray",
+		"TrailingSpaces"
+	]
+}
