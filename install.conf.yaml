@@ -20,5 +20,6 @@
     ~/.vim: vim
     ~/.vimrc: vim/vimrc
     ~/.tigrc: tig/tigrc
+    ~/.hammerspoon: hammerspoon
     "~/Library/Application Support/Sublime Text 3/Packages": "sublime/Packages"
     "~/Library/Application Support/Sublime Text 3/Installed Packages": "sublime/Installed Packages"
