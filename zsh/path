@@ -1,2 +1,5 @@
 # Arcanist
 export PATH=$PATH:~/.dotfiles/arcanist/arcanist/bin
+
+# Anaconda
+export PATH="/usr/local/anaconda3/bin:$PATH"
