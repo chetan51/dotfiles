@@ -1,2 +1,6 @@
 # Fastlane
 export PATH="$HOME/.fastlane/bin:$PATH"
+export FL_UNITY_EXECUTABLE=/Applications/Unity/Hub/Editor/2019.2.12f1/Unity.app/Contents/MacOS/Unity
+
+# DNArt
+export TOPMIX_IOS_BUILD_DIR="$HOME/Dropbox/Development/Pulse-builds/iOS/Pulse"
